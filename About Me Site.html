@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>John Doe's Practice Portfolio</title>
+		<link rel="stylesheet" href="styles.css">
+		<meta name="viewport" content="width=display-width, initial-scale=1">
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<div class="container">
+			<!--About me section -->
+			<div class="intro">
+				<img class="profile-picture" src="images/profile-picture.jpg"/>
+				<h1 id="name">John Doe</h1>
+				<h3 id="current-career">Aspiring Web Developer</h3>
+				<h4>Education</h4>
+				<p>BS Degree in CS</p>
+			</div>
+
+			<hr>
+
+			<div class="about-grid">
+				<div class="i-am">
+					<h3>I am...</h3>
+					<ul>
+						<li class="about-list-item">a computer/internet geek</li>
+						<li class="about-list-item">a video game nerd</li>
+						<li class="about-list-item">an avid sport's fan</li>
+					</ul>
+				</div>
+				<div class="i-love">
+					<h3>I love to...</h3>
+					<ul>
+						<li class="about-list-item">play video games</li>
+						<li class="about-list-item">watch movies/youtube/live streams</li>
+						<li class="about-list-item">watch sports</li>
+						<li class="about-list-item">cook</li>
+						<li class="about-list-item">draw/paint</li>
+						<li class="about-list-item">workout</li>
+						<li class="about-list-item">spend time with family</li>
+					</ul>
+				</div>
+			</div>
+
+			<hr>
+
+			<!-- Portfolio Section -->
+			<div>
+				<h3 class="portfolio-heading">My Portfolio</h3>
+				<div class="portfolio-grid">
+					<div class="portfolio-image-wrapper">
+						<img class="portfolio-image" src="images/project-1.jpg"/>
+						<h4>Project 1</h4>
+					</div>
+					<div class="portfolio-image-wrapper">
+						<img class="portfolio-image" src="images/project-2.jpg"/>
+						<h4>Project 2</h4>
+					</div>
+					<div class="portfolio-image-wrapper">
+						<img class="portfolio-image" src="images/project-3.jpg"/>
+						<h4>Project 3</h4>
+					</div>
+					<div class="portfolio-image-wrapper">
+						<img class="portfolio-image" src="images/project-4.jpg"/>
+						<h4>Project 4</h4>
+					</div>
+				</div>
+			</div>
+
+			<hr>
+
+			<!-- Me Links to me stuffs -->
+			<div class="links-and-contact">
+				<div class="my-links">
+					<h3>My Links</h3>
+					<ul class="links-list">
+						<li class="links">
+							<a href="https://www.linkedin.com" target="blank">LinkedIn</a>
+						</li>
+						<li class="links">
+							<a href="https://github.com" target="blank">GitHub</a>
+						</li>
+						<li class="links">
+							<a href="https://twitter.com" target="blank">Twitter</a>
+						</li>
+				</div>
+				<!-- contact section -->
+				<div class="email-form">
+					<form action="#">
+						<label form="email">
+							<h4>Email</h4>
+							<input id="email" placeholder="Enter Your Email" />
+						</label>
+						<label form="message">
+							<h4>Message</h4>
+							<textarea id="message">Your Message</textarea>
+						</label>
+						<div class="submit-button-wrapper">
+							<input id="submit-button" type="submit" value="Send Message">
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		<script src="script.js"></script>
+	</body>
+</html>
